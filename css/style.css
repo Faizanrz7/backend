@@ -1,0 +1,60 @@
+body {
+    background: #286090;
+}
+.heading {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+    margin: 25px 0;
+}
+
+.sec-button {
+    float: left;
+    width: 100%;
+    margin-top: 70px;
+}
+.sec-button input {
+    background: #286090;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.form {
+    float: left;
+    width: 100%;
+    background: white;
+    padding: 25px 25px;
+    border-radius: 5px;
+    margin: 50px 0;
+    height: 35vh;
+}
+.form label {
+    margin: 10px 0;
+}
+.submit-button {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+.submit-button input {
+    background: red;
+    border-radius: 3px;
+}
+
+
+.formContainer {
+    /* z-index: -1; */
+    position: relative;
+}
+#signup {
+    position: absolute;
+    height: 55vh;
+}
+
+.hide{
+    visibility: hidden;
+}
